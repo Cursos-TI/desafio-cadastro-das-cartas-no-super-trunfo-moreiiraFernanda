@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main () {
+
+    char cidadeCarta1[50] = "Fortaleza";
+    char estadoCarta1[10] = "A";
+    char codigoCarta1[10] = "A01";
+    int populacaoCarta1 = 65350;
+    int pontosCarta1 = 19;
+    float areaCarta1 = 35.6;
+    float pibCarta1 = 37;
+
+    char cidadeCarta2[50] = "Florianopolis";
+    char estadoCarta2[10] = "B";
+    char codigoCarta2[10] = "B01";
+    int populacaoCarta2 = 59980;
+    int pontosCarta2 = 13;
+    float areaCarta2 = 15.7;
+    float pibCarta2 = 57;
+    
+    printf("Informacoes para a carta 1: \n");
+    printf("Estado: %s \n",estadoCarta1);
+    printf("Cidade: %s \n", cidadeCarta1);
+    printf("Codigo da carta: %s \n", codigoCarta1);
+    printf("Populacao: %d \n", populacaoCarta1);
+    printf("Pontos Turisticos: %d \n", pontosCarta1);
+    printf("Area: .%2f km²\n", areaCarta1);
+    printf("PIB: %.2f bilhoes de reais\n\n", pibCarta1);
+    
+
+
+    printf("Informacoes para a carta 2: \n");
+    printf("Estado: %s \n", estadoCarta2);
+    printf("Cidade: %s \n", cidadeCarta2);
+    printf("Codigo da carta: %s \n", codigoCarta2);
+    printf("Populacao: %d \n", populacaoCarta2);
+    printf("Pontos Turisticos: %d \n", pontosCarta2);
+    printf("Area: .%2f km²\n", areaCarta2);
+    printf("PIB: %.2f bilhoes de reais\n", pibCarta2);
+   
+   
+return 0;
+}
