@@ -32,7 +32,7 @@ int main () {
     printf("Densidade Populacional: %.3f hab/km²\n", densidadepopulacional1);
     printf("Pib per capita: %.3f reais\n\n", pibpercapita1);
     
-    
+
 
 
     printf("Informacoes para a carta 2: \n");
